@@ -18,16 +18,46 @@ public class TaskController{
                     taskView.ShowAllTasks(taskItems);
                     break;
                 case "3":
+                    Mark(taskView.ChooseTask());
                     break;
                 case "4":
+                    Delete(taskView.ChooseTask());
                     break;
                 case "0":
                     return;
                 default:
-                    Console.WriteLine("Invalid Input\n");
+                    Console.WriteLine("Invalid Input.\n");
                     break;
 
             }
         }
+    }
+
+    void Delete(string Title){
+        try{
+            taskItems.Remove(FindItemInList(Title));
+            Console.WriteLine($"Task '{Title}' removed.");
+        }catch{
+            Console.WriteLine("Task not found.");
+        }
+    }
+
+    void Mark(string Title){
+        try{
+            FindItemInList(Title).isCompleted = true;
+            Console.WriteLine($"Task '{Title}' marked as completed.");
+        }catch{
+            Console.WriteLine("Task not found.");
+        }
+    }
+
+    TaskItem FindItemInList(string title){
+        foreach(TaskItem taskItem in taskItems){
+            if(taskItem.Title == title){
+                return taskItem;
+            }
+        }
+
+        return null;
     }
 }
