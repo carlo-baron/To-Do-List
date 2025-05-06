@@ -13,6 +13,11 @@ public class TaskView{
         Console.Write("Choose: ");
     }
 
+    public string ChooseTask(){
+        Console.Write("Task to Delete (title): ");
+        return Console.ReadLine();
+    }
+
     void ShowTask(TaskItem taskItem){
         string completion = taskItem.isCompleted ? "Completed" : "Incomplete";
         Console.WriteLine($"""
