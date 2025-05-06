@@ -1,0 +1,15 @@
+C:\Users\Gir\Desktop\cod\To-Do-List (MVC)\bin\Debug\net8.0\To-Do-List (MVC).exe
+C:\Users\Gir\Desktop\cod\To-Do-List (MVC)\bin\Debug\net8.0\To-Do-List (MVC).deps.json
+C:\Users\Gir\Desktop\cod\To-Do-List (MVC)\bin\Debug\net8.0\To-Do-List (MVC).runtimeconfig.json
+C:\Users\Gir\Desktop\cod\To-Do-List (MVC)\bin\Debug\net8.0\To-Do-List (MVC).dll
+C:\Users\Gir\Desktop\cod\To-Do-List (MVC)\bin\Debug\net8.0\To-Do-List (MVC).pdb
+C:\Users\Gir\Desktop\cod\To-Do-List (MVC)\obj\Debug\net8.0\To-Do-List (MVC).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gir\Desktop\cod\To-Do-List (MVC)\obj\Debug\net8.0\To-Do-List (MVC).AssemblyInfoInputs.cache
+C:\Users\Gir\Desktop\cod\To-Do-List (MVC)\obj\Debug\net8.0\To-Do-List (MVC).AssemblyInfo.cs
+C:\Users\Gir\Desktop\cod\To-Do-List (MVC)\obj\Debug\net8.0\To-Do-List (MVC).csproj.CoreCompileInputs.cache
+C:\Users\Gir\Desktop\cod\To-Do-List (MVC)\obj\Debug\net8.0\To-Do-List (MVC).sourcelink.json
+C:\Users\Gir\Desktop\cod\To-Do-List (MVC)\obj\Debug\net8.0\To-Do-List (MVC).dll
+C:\Users\Gir\Desktop\cod\To-Do-List (MVC)\obj\Debug\net8.0\refint\To-Do-List (MVC).dll
+C:\Users\Gir\Desktop\cod\To-Do-List (MVC)\obj\Debug\net8.0\To-Do-List (MVC).pdb
+C:\Users\Gir\Desktop\cod\To-Do-List (MVC)\obj\Debug\net8.0\To-Do-List (MVC).genruntimeconfig.cache
+C:\Users\Gir\Desktop\cod\To-Do-List (MVC)\obj\Debug\net8.0\ref\To-Do-List (MVC).dll

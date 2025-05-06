@@ -14,22 +14,23 @@ public class TaskView{
     }
 
     void ShowTask(TaskItem taskItem){
+        string completion = taskItem.isCompleted ? "Completed" : "Incomplete";
         Console.WriteLine($"""
-            Title: {taskItem.Title}
+            Title: {taskItem.Title} - ({completion})
                 Description: {taskItem.Description}
         """);
     }
 
     public void ShowAllTasks(List<TaskItem> taskItems){
-        Console.WriteLine("== Tasks ==");
+        Console.WriteLine("\n=== Tasks ===");
         foreach(TaskItem taskItem in taskItems){
             ShowTask(taskItem);
         }
-        Console.WriteLine("===========");
+        Console.WriteLine("===========\n");
     }
 
     public TaskItem AddTask(){
-        Console.Write("Title: ");
+        Console.Write("\nTitle: ");
         string? title = Console.ReadLine();
 
         Console.Write("Description: ");
