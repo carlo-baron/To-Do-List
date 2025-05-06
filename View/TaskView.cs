@@ -27,11 +27,11 @@ public class TaskView{
     }
 
     public void ShowAllTasks(List<TaskItem> taskItems){
-        Console.WriteLine("\n=== Tasks ===");
+        Console.WriteLine("\n========= Tasks =========");
         foreach(TaskItem taskItem in taskItems){
             ShowTask(taskItem);
         }
-        Console.WriteLine("===========\n");
+        Console.WriteLine("==========================\n");
     }
 
     public TaskItem AddTask(){
