@@ -38,7 +38,7 @@ public class TaskController{
             taskItems.Remove(FindItemInList(Title));
             Console.WriteLine($"Task '{Title}' removed.\n");
         }catch{
-            Console.WriteLine("Task not found.");
+            Console.WriteLine("Task not found.\n");
         }
     }
 
@@ -47,7 +47,7 @@ public class TaskController{
             FindItemInList(Title).isCompleted = true;
             Console.WriteLine($"Task '{Title}' marked as completed.\n");
         }catch{
-            Console.WriteLine("Task not found.");
+            Console.WriteLine("Task not found.\n");
         }
     }
 
