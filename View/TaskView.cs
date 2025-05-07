@@ -14,14 +14,14 @@ public class TaskView{
     }
 
     public string ChooseTask(){
-        Console.Write("Task to Delete (title): ");
+        Console.Write("Task to Delete (Id): ");
         return Console.ReadLine();
     }
 
     void ShowTask(TaskItem taskItem){
-        string completion = taskItem.isCompleted ? "Completed" : "Incomplete";
+        string completion = taskItem.IsCompleted ? "Completed" : "Incomplete";
         Console.WriteLine($"""
-            Title: {taskItem.Title} - ({completion})
+            {taskItem.Id}. Title: {taskItem.Title} - ({completion})
                 Description: {taskItem.Description}
         """);
     }
@@ -34,13 +34,13 @@ public class TaskView{
         Console.WriteLine("==========================\n");
     }
 
-    public TaskItem AddTask(){
+    public (string?, string?) AddTask(){
         Console.Write("\nTitle: ");
         string? title = Console.ReadLine();
 
         Console.Write("Description: ");
-        string description = Console.ReadLine();
+        string? description = Console.ReadLine();
 
-        return new TaskItem(){Title = title, Description=description};
+        return (title, description);
     }
 }

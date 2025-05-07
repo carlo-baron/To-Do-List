@@ -7,11 +7,16 @@ public class TaskController{
     public void Run(){
         while(true){
             taskView.ShowOptions();
-            string choice = Console.ReadLine();
+            string? choice = Console.ReadLine();
 
             switch(choice){
                 case "1":
-                    taskItems.Add(taskView.AddTask());
+                    (string? Title, string? Description) newTask = taskView.AddTask();
+                    if(string.IsNullOrWhiteSpace(newTask.Title) && string.IsNullOrWhiteSpace(newTask.Description)){
+                        Console.WriteLine("Cannot create an empty task");
+                        break;
+                    }
+                    taskItems.Add(new TaskItem(){Id=taskItems.Count()+1, Title = newTask.Title, Description=newTask.Description});
                     Console.WriteLine("Task Added.\n");
                     break;
                 case "2":
@@ -33,27 +38,32 @@ public class TaskController{
         }
     }
 
-    void Delete(string Title){
-        try{
-            taskItems.Remove(FindItemInList(Title));
-            Console.WriteLine($"Task '{Title}' removed.\n");
-        }catch{
+    void Delete(string Id){
+        TaskItem? itemToRemove = FindItemById(Id); 
+        
+        if(itemToRemove == null){
             Console.WriteLine("Task not found.\n");
+            return;
         }
+
+        taskItems.Remove(itemToRemove);
+        Console.WriteLine($"Task '{itemToRemove.Title}' removed.\n");
+}
+
+    void Mark(string Id){
+        TaskItem? itemToRemove = FindItemById(Id);
+        if(itemToRemove == null){
+            Console.WriteLine("Task not found.\n");
+            return;
+        }
+        itemToRemove.IsCompleted = true;
+        Console.WriteLine($"Task '{itemToRemove.Title}' marked as completed.\n");
     }
 
-    void Mark(string Title){
-        try{
-            FindItemInList(Title).isCompleted = true;
-            Console.WriteLine($"Task '{Title}' marked as completed.\n");
-        }catch{
-            Console.WriteLine("Task not found.\n");
-        }
-    }
-
-    TaskItem FindItemInList(string title){
+    TaskItem? FindItemById(string title){
         foreach(TaskItem taskItem in taskItems){
-            if(taskItem.Title == title){
+            string itemId = taskItem.Id.ToString();
+            if(itemId == title){
                 return taskItem;
             }
         }
