@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Gir\\.nuget\\packages\\": {}
+    "/home/lods/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gir\\Desktop\\cod\\To-Do-List (MVC)\\To-Do-List (MVC).csproj",
+      "projectUniqueName": "/home/lods/Desktop/todo-web/To-Do-List/To-Do-List (MVC).csproj",
       "projectName": "To-Do-List (MVC)",
-      "projectPath": "C:\\Users\\Gir\\Desktop\\cod\\To-Do-List (MVC)\\To-Do-List (MVC).csproj",
-      "packagesPath": "C:\\Users\\Gir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gir\\Desktop\\cod\\To-Do-List (MVC)\\obj\\",
+      "projectPath": "/home/lods/Desktop/todo-web/To-Do-List/To-Do-List (MVC).csproj",
+      "packagesPath": "/home/lods/.nuget/packages/",
+      "outputPath": "/home/lods/Desktop/todo-web/To-Do-List/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Gir\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/lods/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -64,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/lods/.dotnet/sdk/8.0.408/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
