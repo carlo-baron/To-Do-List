@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "Xd1i6ycrccA=",
   "success": true,
   "projectFilePath": "/home/lods/Desktop/todo-web/To-Do-List/To-Do-List (MVC).csproj",
+=======
+  "dgSpecHash": "gBgMkBw6K7Eu41P5EIJLOADB37RhopOj+1AFfi+q4LOruV2PDYPW/L+c+v1YFkHkbVVXrhx2NubdCAeeOcerdg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Gir\\Desktop\\Practice\\cod\\To-Do-List (MVC)\\To-Do-List (MVC).csproj",
+>>>>>>> Stashed changes
   "expectedPackageFiles": [],
   "logs": []
 }

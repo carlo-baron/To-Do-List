@@ -13,11 +13,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< Updated upstream
       "projectUniqueName": "/home/lods/Desktop/todo-web/To-Do-List/To-Do-List (MVC).csproj",
       "projectName": "To-Do-List (MVC)",
       "projectPath": "/home/lods/Desktop/todo-web/To-Do-List/To-Do-List (MVC).csproj",
       "packagesPath": "/home/lods/.nuget/packages/",
       "outputPath": "/home/lods/Desktop/todo-web/To-Do-List/obj/",
+=======
+      "projectUniqueName": "C:\\Users\\Gir\\Desktop\\Practice\\cod\\To-Do-List (MVC)\\To-Do-List (MVC).csproj",
+      "projectName": "To-Do-List (MVC)",
+      "projectPath": "C:\\Users\\Gir\\Desktop\\Practice\\cod\\To-Do-List (MVC)\\To-Do-List (MVC).csproj",
+      "packagesPath": "C:\\Users\\Gir\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Gir\\Desktop\\Practice\\cod\\To-Do-List (MVC)\\obj\\",
+>>>>>>> Stashed changes
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/lods/.nuget/NuGet/NuGet.Config"
