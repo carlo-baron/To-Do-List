@@ -1,4 +1,13 @@
-<?php include('get-tasks.php'); ?>
+<?php 
+    session_start();
+    include('get-tasks.php');
+    
+    $markable = isset($_SESSION['markable']) ? $_SESSION['markable'] : false;
+    
+    if (!$markable) {
+        session_destroy();
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,6 +28,12 @@
             </div>
         <?php endforeach; ?>
     </div>
+    <?php
+        if($markable){
+            echo "<p> HELLO BHAI </p>";
+            unset($_SESSION['markable']);
+        }
+    ?>
 </body>
 
 </html>
