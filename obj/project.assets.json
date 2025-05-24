@@ -8,27 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/home/lods/.nuget/packages/": {}
+    "C:\\Users\\Gir\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< Updated upstream
-      "projectUniqueName": "/home/lods/Desktop/todo-web/To-Do-List/To-Do-List (MVC).csproj",
+      "projectUniqueName": "C:\\xampp\\htdocs\\To-Do-List (MVC)\\To-Do-List (MVC).csproj",
       "projectName": "To-Do-List (MVC)",
-      "projectPath": "/home/lods/Desktop/todo-web/To-Do-List/To-Do-List (MVC).csproj",
-      "packagesPath": "/home/lods/.nuget/packages/",
-      "outputPath": "/home/lods/Desktop/todo-web/To-Do-List/obj/",
-=======
-      "projectUniqueName": "C:\\Users\\Gir\\Desktop\\Practice\\cod\\To-Do-List (MVC)\\To-Do-List (MVC).csproj",
-      "projectName": "To-Do-List (MVC)",
-      "projectPath": "C:\\Users\\Gir\\Desktop\\Practice\\cod\\To-Do-List (MVC)\\To-Do-List (MVC).csproj",
+      "projectPath": "C:\\xampp\\htdocs\\To-Do-List (MVC)\\To-Do-List (MVC).csproj",
       "packagesPath": "C:\\Users\\Gir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gir\\Desktop\\Practice\\cod\\To-Do-List (MVC)\\obj\\",
->>>>>>> Stashed changes
+      "outputPath": "C:\\xampp\\htdocs\\To-Do-List (MVC)\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/lods/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Gir\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -72,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/lods/.dotnet/sdk/8.0.408/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

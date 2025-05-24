@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body, .card{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    margin-top: 2em;
+}
+
+.card{
+    margin-bottom: 1em;
+    text-align: center;
+    border-style: solid;
+    width: 50vw;
+}
+
+.title{
+    padding-top: 0.5em;
+}
+
+.description{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 0.5em;
+}
+
