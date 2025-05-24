@@ -7,10 +7,10 @@ document.querySelectorAll('button').forEach(button => {
                 window.location.href = 'add-task/add-task.html';
                 break;
             case 'view':
-                window.location.href = 'view-task/view-tasks.php';
+                window.location.href = 'view-task/view-task.php';
                 break;
             case 'mark':
-                // add logic for marking tasks
+                window.location.href = 'mark-task/mark-task.php';
                 break;
             case 'delete':
                 // add logic for deleting tasks
